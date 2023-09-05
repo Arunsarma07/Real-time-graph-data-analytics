@@ -31,7 +31,7 @@ RUN mkdir /cse511
 WORKDIR /cse511
 
 # Set up Git credentials
-ARG GITHUB_TOKEN="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"
+ARG GITHUB_TOKEN="xxxx"
 
 RUN apt-get update && apt-get install -y curl && apt-get install -y wget &&\
     git config --global credential.helper store && \
