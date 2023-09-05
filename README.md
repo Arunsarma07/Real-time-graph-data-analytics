@@ -1,1 +1,7 @@
-# Real-time-graph-data-analytics-
+# Real-time-graph-data-analytics
+
+Neo4j is a graph database that is capable of storing, updating, and retrieving graph-like data in a highly scalable manner. The project is split into two phases. The primary objective of this project-phase1, is to create Docker containers that install neo4j and will implement two graph algorithms in neo4j. Docker is a relevant open-source platform that can be utilized for developing, shipping, and running applications. It can facilitate the creation of a standardized environment that is easily shareable across different teams and platforms, making it an efficient tool for streamlining the development and deployment processes.
+
+Because the application will be utilized by multiple users at the same time during peak hours, load balancing is critical to preventing database crashes. To handle the massive data transactions, Kubernetes and Apache Kafka are recommended for load balancing in this project. Kubernetes is capable of managing and scaling the Docker containers that operate the application. It can assist ensure that the application is constantly available and responsive, especially during peak periods of traffic. And Kafka may be used to stream requests from different users as well as responses to the user into the application.
+
+The entire project is stream-lined and tested end-to-end in phase-2 to ensure that the dataflow through Kafka is correctly sent and that Neo4j is available to store and retrieve the data.
